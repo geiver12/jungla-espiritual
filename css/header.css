@@ -1,25 +1,22 @@
 header {
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
-#header-head {
-    position: relative;
+#header-head-image{
+    z-index: -100;
+    position: absolute;
+    top: 0;
 }
 
-#header-head,
-#header-head-image {
-    
-    z-index: -1;
-}
+
 
 #header-title-elements-container {
     margin-bottom: 0 !important;
 }
 
 #header-title {
-    position: absolute;
     width: 100%;
 }
 
@@ -50,8 +47,8 @@ header {
 }
 
 #header-content {
-    width: 998px;
-    margin: auto;
+    margin-top: 18vh ;
+    width: 100%;
 }
 
 #header-texts {
@@ -64,12 +61,12 @@ header {
 }
 
 #header-texts p {
-    font-size: 1.1rem;
+    font-size: .9rem;
 }
 
 
 #header-subtitle {
-    font-size: 1.35rem;
+    font-size: 1.1rem;
     line-height: 1.5;
     margin-top: 1%;
     text-align: left;

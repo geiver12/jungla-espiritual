@@ -13,6 +13,7 @@
 /************ Menu *************/
 
 #stops-menu {
+    display: none;
     position: absolute;
     top: 0;
     z-index: 3000;
@@ -64,28 +65,31 @@
 }
 
 #park-dialog {
-    width: 300px;
+    width: 35%;
     position: absolute;
-    right: 60px;
-    top: 40vh;
+    right: 0;
+    top: 40%;
     cursor: pointer;
     font-family: SimplyRounded-Bold;
 }
 
 #park-dialog:hover {
-    width: 500px;
-    font-size: 2rem;
-    right: 60px;
-    top: 20vh;
+    width: 40%;
+    font-size: 1rem;
+    right: 0;
+    top: 40%;
 }
 
 #stop-0-static-content {
     position: absolute;
-    margin-left: 3vw;
+    left: 0%;
+    top: 10%;
+    
 }
 
 #stop-0-static-content #back-image {
-    width: 60vw;
+    width: 70%;
+       
 }
 
 .stop-icon {
@@ -96,7 +100,7 @@
 
 #stop-menu-1 {
     top: 56%;
-    left: 25vw;
+    left: 25%;
 
     animation: menu-stop-1 2s infinite;
 }
@@ -107,27 +111,27 @@
 
 #stop-menu-2 {
     top: 38%;
-    left: 6vw;
+    left: 6%;
 }
 
 #stop-menu-3 {
     top: 11%;
-    left: 5vw;
+    left: 5%;
 }
 
 #stop-menu-4 {
     top: 4%;
-    left: 20vw;
+    left: 20%;
 }
 
 #stop-menu-5 {
-    top: 28%;
-    left: 45vw;
+    top: 10%;
+    left: 50%;
 }
 
 #stop-menu-6 {
-    top: 50%;
-    left: 43vw;
+    top: 40%;
+    left: 50%;
 }
 
 #park-map {

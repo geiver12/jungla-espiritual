@@ -39,14 +39,12 @@ body::-webkit-scrollbar-thumb {
 body {
     margin: 0 !important;
     min-height: 100vh;
-    background: transparent linear-gradient(90deg, #382f35 0%, #362e34 3%, #232529 60%, #1d2225 100%) 0% 0% no-repeat
-        padding-box;
+    background: transparent linear-gradient(90deg, #382f35 0%, #362e34 3%, #232529 60%, #1d2225 100%) 0% 0% no-repeat padding-box;
 }
 
 /********** All Stops ****************/
 
-.stop-view,
-#instructions-section {
+.stop-view, #instructions-section {
     height: 100vh;
     margin-top: 10vh;
     width: 100%;
@@ -72,7 +70,6 @@ nav .floating-action {
 
 nav:hover .floating-action {
     display: unset;
-
     animation-name: nav-icons-show;
     animation-iteration-count: 1;
     animation-duration: 0.7s;
@@ -102,6 +99,7 @@ nav:hover .floating-action:hover {
 }
 
 /* Dialog */
+
 .dialog-container {
     position: absolute;
 }
@@ -138,7 +136,7 @@ nav:hover .floating-action:hover {
     position: absolute;
     width: 100%;
     top: 460vh;
-    left: 0;    
+    left: 0;
     height: 210vh;
     z-index: -1000;
 }
@@ -167,8 +165,63 @@ nav:hover .floating-action:hover {
     width: 100%;
 }
 
-
-.container-wrapper{
+.container-wrapper {
     width: 998px;
     margin: auto;
+}
+
+.social-nav {
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    z-index: 100001;
+}
+
+.social-nav li {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.social-nav a {
+    display: inline-block;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+    width: 64px;
+    height: 48px;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    background: #71bb79;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 48px;
+    position: relative;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.model-0 {
+    position: fixed;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    right: 1.7%;
+    top: 45% !important;
+}
+
+.model-0 li {
+    float: none;
+    display: block;
+}
+
+.model-0 a:hover {
+    background: #044444;
+}
+
+.transparency{
+    filter: invert(100%);
 }
