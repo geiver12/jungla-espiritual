@@ -49,7 +49,7 @@ body {
 #instructions-section {
     height: 100vh;
     margin-top: 10vh;
-    width: 998px;
+    width: 100%;
     position: relative;
     margin: auto;
 }
@@ -123,15 +123,11 @@ nav:hover .floating-action:hover {
 
 .dialog img {
     position: absolute;
-
     z-index: 1000;
-
     top: 0;
     left: 0;
-
     object-fit: fill;
     overflow: hidden;
-
     min-width: 100%;
     min-height: 100%;
 }
@@ -141,7 +137,7 @@ nav:hover .floating-action:hover {
 #river-1 {
     position: absolute;
     width: 100%;
-    top: 360vh;
+    top: 460vh;
     left: 0;    
     height: 210vh;
     z-index: -1000;
@@ -149,7 +145,7 @@ nav:hover .floating-action:hover {
 
 #river-2 {
     position: absolute;
-    top: 570vh;
+    top: 700vh;
     width: 100%;
     height: 380vh;
     z-index: -1000;
@@ -169,4 +165,10 @@ nav:hover .floating-action:hover {
     position: absolute;
     bottom: 3vh;
     width: 100%;
+}
+
+
+.container-wrapper{
+    width: 998px;
+    margin: auto;
 }

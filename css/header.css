@@ -10,7 +10,8 @@ header {
 
 #header-head,
 #header-head-image {
-    width: 100%;
+    
+    z-index: -1;
 }
 
 #header-title-elements-container {

@@ -6,9 +6,8 @@
 #stop-7-images {
     height: 60vh;
     position: relative;
-    width: 998px;
+    width: 100%;
     margin: auto;
-    margin-top: 20vh;
     
 }
 
@@ -39,31 +38,33 @@
 }
 
 #woman-1-supercontainer {
-    top: 5vh;
-    left: 25vw;
+    top: -5%;
+    height: 50%;
+    width: 50%;
+    left: 0;
     z-index: 1001;
 }
 
 #man-1-supercontainer {
-    top: 8vh;
-    left: 35vw;
+    top: 5%;
+    left: 10%;
     z-index: 1000;
 }
 
 #woman-2-supercontainer {
-    top: 10vh;
-    left: 63vw;
+    top: -5%;
+    left: 65%;
 }
 
 #man-2-supercontainer {
-    top: 2vh;
-    left: 82vw;
+    top: -5%;
+    left: 85%;
 }
 
 #stop-7-text {
     font-family: SimplyRounded-Bold;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     margin: auto;
     padding-top: 10vh;
@@ -85,8 +86,8 @@
 
 #button-tell-history {
     position: absolute;
-    bottom: 20vh;
-    left: 45vw;
+    bottom: 20%;
+    left: 35%;
     color: white;
     height: 40px;
     padding: 0 20px;

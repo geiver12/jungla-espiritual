@@ -131,9 +131,9 @@
 }
 
 #park-map {
-    display: none !important;
+    display: block;
 }
 
 #park-map.show {
-    display: block !important;
+    display: block ;
 }

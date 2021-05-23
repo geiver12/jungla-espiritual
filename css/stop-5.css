@@ -22,19 +22,19 @@
 
 #cars {
     position: absolute;
-    top: 10vh;
-    right: 5vw;
-    width: 40vw;
+    bottom: 10%;
+    right: 5%;
+    width: 40%;
     z-index: 900;
     cursor: pointer;
 }
 
 #stop-5-supercontainer {
     position: absolute;
-    top: 0;
-    left: 5vw;
-    height: 600px;
-    width: 800px;
+    bottom: 10%;
+    left: 5%;
+    height: 80vh;
+    width: 100%;
 }
 
 #stop-5-container {
@@ -45,42 +45,33 @@
 
 #finish {
     position: absolute;
-    width: 400px;
+    width: 30%;
     bottom: 0;
-    left: 200px;
+    left: 10%;
     z-index: 1002;
 }
 
 #hand {
     position: absolute;
-    width: 200px;
-    bottom: 150px;
-    left: 450px;
+    width: 15%;
+    bottom: 25%;
+    left: 30%;
     z-index: 1000;
 }
 
-#stop-5-action {
-    position: absolute;
-    width: 200px;
-    bottom: 150px;
-    left: 450px;
-    z-index: 1005;
-    cursor: pointer;
-    height: 130px;
-}
+
 
 #driver-1 {
     position: absolute;
-    width: 100px;
-    top: 50px;
-    right: 80px;
-    z-index: 1001;
+    width: 8%;
+    top: 10%;
+    left: 45%;
 }
 
 #driver-1.active {
     top: unset;
     bottom: 0;
-    left: 180px;
+    left: 10%;
     z-index: 1002;
 }
 
@@ -88,24 +79,32 @@
     position: absolute;
     z-index: 1001;
     bottom: 0;
+    width: 15%;
     left: 0;
 }
 
 #clebrate {
     position: absolute;
-    bottom: -50px;
+    bottom: -10%;
     z-index: 1003;
-    left: 200px;
+    left:  10%;
     opacity: 0;
     display: none;
 }
 
-#stop-5-arrow-red {
+#stop-5-action {
     position: absolute;
-    top: 280px;
-    right: 210px;
-    width: 70px;
+    z-index: 1005;
+    cursor: pointer;
+    
+}
+#stop-5-arrow-red,#stop-5-action {
+    position: absolute;
+    top: 0%;
+    left: 35%;
+    width: 5%;
     z-index: 1003;
+    height: 130px;    
 
     animation-name: up-down-red-arrow-stop-5;
     animation-iteration-count: infinite;
@@ -166,9 +165,9 @@
 }
 
 #stop-5-dialog-0-container {
-    width: 160px;
+    width: 15%;
     top: 0px;
-    right: 200px;
+    left: 30%;
 }
 
 #stop-5-dialog-0 .dialog-text-container {

@@ -44,9 +44,6 @@
     margin-right: -5vw;
 }
 
-
-
-
 #castle-left {
     position: absolute;
     width: 200px;
@@ -88,7 +85,7 @@
 
 #stop-3-dialog-pull-container {
     top: 350px;
-    left: 650px;
+    left: 470px;
     width: 100px;
 }
 
