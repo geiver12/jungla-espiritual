@@ -1,0 +1,238 @@
+@keyframes up-down-stop-2-image-ilustration-action {
+    0% {
+        top: 6vh;
+    }
+    50% {
+        top: 4vh;
+    }
+    100% {
+        top: 6vh;
+    }
+}
+
+@keyframes up-down-arrow-stop-2 {
+    0% {
+        bottom: 74vh;
+    }
+    50% {
+        bottom: 68vh;
+    }
+    100% {
+        bottom: 74vh;
+    }
+}
+
+@keyframes stop-2-show-ilustration {
+    0% {
+        top: 20vh;
+    }
+    100% {
+        top: 4vh;
+    }
+}
+
+#stop-2-static-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    object-fit: fill;
+}
+
+.stop-2-dialog-ilustration {
+    opacity: 0;
+    display: none;
+    position: absolute;
+    top: 4vh;
+    right: 16vw;
+    width: 7vw;
+
+    transition: opacity 0.7s ease-in-out;
+}
+
+.stop-2-dialog-ilustration.show {
+    opacity: 1;
+    display: unset;
+    animation: up-down-stop-2-image-ilustration-action 4s infinite, stop-2-show-ilustration 2s 1;
+}
+
+#stop-2-game {
+    position: absolute;
+    bottom: 20vh;
+    right: 9vw;
+    width: 25vw;
+    cursor: pointer;
+}
+
+.stop-2-dialog,
+.stop-2-cloud {
+    opacity: 0;
+    display: none;
+    transition: opacity 0.7s ease-in-out;
+    cursor: pointer;
+}
+
+.stop-2-text {
+    font-family: "roboto";
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.stop-2-dialog:hover .stop-2-text {
+    font-size: 1.5rem !important;
+}
+
+.stop-2-dialog.show,
+.stop-2-cloud.show {
+    opacity: 1;
+    display: unset;
+}
+
+.stop-2-cloud {
+    position: absolute;
+    width: 40vw;
+    top: 5%;
+    left: 28vw;
+}
+
+.stop-2-cloud:hover {
+    width: 60vw;
+    z-index: 1002;
+}
+
+/*********/
+
+#stop-2-dialog-1-container {
+    top: 7vh;
+    right: 30vw;
+    width: 350px;
+}
+
+#stop-2-dialog-1-container:hover {
+    width: 450px;
+}
+
+#stop-2-dialog-1 .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 0.8rem;
+    padding-top: 0.5rem;
+    font-size: 1rem;
+}
+
+#stop-2-dialog-2-container {
+    top: 7vh;
+    right: 30vw;
+    width: 400px;
+}
+
+#stop-2-dialog-2-container:hover {
+    width: 500px;
+}
+
+#stop-2-dialog-2 .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 0.8rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+#stop-2-dialog-3-container {
+    top: 7vh;
+    right: 30vw;
+    width: 340px;
+}
+
+#stop-2-dialog-3-container:hover {
+    width: 440px;
+}
+
+#stop-2-dialog-3 .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 0.8rem;
+    padding-top: 0.6rem;
+    font-size: 1rem;
+}
+
+#stop-2-dialog-4-container {
+    top: 28vh;
+    right: 30vw;
+    width: 340px;
+}
+
+#stop-2-dialog-4-container:hover{
+    width: 450px;
+}
+
+#stop-2-dialog-4 .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 0.8rem;
+    padding-top: 0.6rem;
+    font-size: 1rem;
+}
+
+#stop-2-dialog-5-container {
+    top: 7vh;
+    right: 30vw;
+    width: 400px;
+}
+
+#stop-2-dialog-5-container:hover{
+    width: 530px;
+}
+
+#stop-2-dialog-5 .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 0.8rem;
+    padding-top: 0.3rem;
+    font-size: 1rem;
+}
+
+#stop-2-dialog-6-container {
+    top: 30vh;
+    right: 30vw;
+    width: 340px;
+}
+
+#stop-2-dialog-6-container:hover{
+    width: 440px;
+}
+
+#stop-2-dialog-6 .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 0.8rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+#arrow-stop-2 {
+    position: absolute;
+    bottom: 74vh;
+    right: 20vw;
+    height: 12vh;
+
+    animation-name: up-down-arrow-stop-2;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+#stop-2-dialog-0-container {
+    top: 20vh;
+    right: 30vw;
+    width: 180px;
+    color: black;
+}
+
+#stop-2-dialog-0 .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 0.8rem;
+    padding-top: 2rem;
+    font-size: 1rem;
+}
+
+#stop-2-start {
+    color: black;
+    font-family: SimplyRounded-Bold;
+    font-size: 2rem !important;
+}

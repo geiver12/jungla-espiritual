@@ -1,0 +1,318 @@
+@keyframes move-hand {
+    0% {
+        top: 350px;
+        left: 290px;
+    }
+    100% {
+        top: 310px;
+        left: 140px;
+    }
+}
+
+@keyframes move-chain-man {
+    0% {
+        top: 420px;
+        left: 450px;
+    }
+    100% {
+        top: 320px;
+        left: 130px;
+    }
+}
+
+@keyframes up-down-red-arrow-stop-3 {
+    0% {
+        bottom: 22vh;
+    }
+    50% {
+        bottom: 19vh;
+    }
+    100% {
+        bottom: 22vh;
+    }
+}
+
+#stop-3-static-content {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 65.5vw;
+    overflow: hidden;
+}
+
+#stop-3-static-content img {
+    margin-right: -5vw;
+}
+
+#castle-right {
+    position: absolute;
+    width: 99px;
+    left: 299px;
+    top: 81px;
+}
+
+#castle-left {
+    position: absolute;
+    width: 200px;
+    left: 100px;
+}
+
+#demon-hand {
+    position: absolute;
+    width: 150px;
+    top: 350px;
+    left: 290px;
+    opacity: 1;
+    display: unset;
+    transition: opacity 1s ease-in-out;
+}
+
+#chain-man {
+    position: absolute;
+    width: 300px;
+    top: 420px;
+    left: 450px;
+    transition: opacity 1s ease-in-out;
+}
+
+#button-deactivate,
+#button-actived {
+    position: absolute;
+    width: 80px;
+    bottom: 10vh;
+    left: 5vw;
+    cursor: pointer;
+}
+
+#stop-3-dialog-pull-container {
+    top: 350px;
+    left: 650px;
+    width: 100px;
+}
+
+#stop-3-dialog-pull {
+    padding-left: 1rem;
+    padding-right: 0.8rem;
+    padding-top: 0.3rem;
+    font-size: 1.2rem;
+}
+
+#button-actived {
+    display: none;
+}
+
+.move-hand {
+    opacity: 0 !important;
+    display: none;
+
+    animation-name: move-hand;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+}
+
+.move-chain-man {
+    opacity: 0 !important;
+
+    animation-name: move-chain-man;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+}
+
+#militars {
+    position: absolute;
+    width: 55vw;
+    bottom: 5vh;
+    right: 7vw;
+    z-index: -1;
+}
+
+#castle-container {
+    position: relative;
+}
+
+#castle-supercontainer {
+    position: absolute;
+    top: 15vh;
+}
+
+.stop-3-dialog,
+.stop-3-cloud,
+#stop-3-dialog-pull-container {
+    opacity: 0;
+    display: none;
+    transition: opacity 0.7s ease-in-out;
+    cursor: pointer;
+}
+
+.stop-3-text {
+    font-family: "roboto";
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.stop-3-dialog:hover .stop-3-text {
+    font-size: 1.6rem;
+}
+
+.stop-3-dialog.show,
+.stop-3-cloud.show,
+#stop-3-dialog-pull-container.show {
+    opacity: 1;
+    display: unset;
+}
+
+.stop-3-cloud {
+    position: absolute;
+    width: 40vw;
+    top: 5%;
+    left: 28vw;
+}
+
+.stop-3-cloud:hover {
+    width: 55vw;
+    top: 10%;
+}
+
+/*********/
+
+#stop-3-dialog-1-container {
+    width: 300px;
+    top: 290px;
+    left: 650px;
+}
+
+#stop-3-dialog-1-container:hover {
+    width: 420px;
+}
+
+#stop-3-dialog-1 .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 1rem;
+    padding-top: 1.2rem;
+    font-size: 1rem;
+}
+
+#stop-3-dialog-1-text,
+#stop-3-dialog-7-text {
+    font-family: SimplyRounded-Bold;
+}
+
+#stop-3-dialog-2-container {
+    width: 400px;
+    top: 230px;
+    left: 650px;
+}
+
+#stop-3-dialog-2-container:hover {
+    width: 550px;
+}
+
+#stop-3-dialog-2 .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 1rem;
+    padding-top: 0.6rem;
+    font-size: 1rem;
+}
+
+#stop-3-dialog-3-container {
+    width: 370px;
+    top: 250px;
+    left: 650px;
+}
+
+#stop-3-dialog-3-container:hover {
+    width: 490px;
+}
+
+#stop-3-dialog-3 .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+#stop-3-dialog-4-container {
+    width: 400px;
+    top: 100px;
+    left: 650px;
+}
+
+#stop-3-dialog-4-container:hover {
+    width: 550px;
+}
+
+#stop-3-dialog-4 .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 1rem;
+    padding-top: 0.3rem;
+    font-size: 1rem;
+}
+
+#stop-3-dialog-5-container {
+    width: 400px;
+    top: 290px;
+    left: 650px;
+}
+
+#stop-3-dialog-5-container:hover {
+    width: 500px;
+}
+
+#stop-3-dialog-5 .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 1rem;
+    padding-top: 0.3rem;
+    font-size: 1rem;
+}
+
+#stop-3-dialog-6-container {
+    width: 370px;
+    top: 290px;
+    left: 650px;
+}
+
+#stop-3-dialog-6-container:hover {
+    width: 480px;
+}
+
+#stop-3-dialog-6 .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 1rem;
+    padding-top: 0.6rem;
+    font-size: 1rem;
+}
+
+#stop-3-dialog-7-container {
+    width: 300px;
+    top: 300px;
+    left: 650px;
+}
+
+#stop-3-dialog-7-container:hover {
+    width: 400px;
+}
+
+#stop-3-dialog-7 .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 1rem;
+    padding-top: 0.8rem;
+    font-size: 1rem;
+}
+
+.stop-3-cloud {
+    position: absolute;
+    width: 30vw;
+    top: 9vh;
+    left: 33vw;
+}
+
+#stop-3-arrow-red {
+    position: absolute;
+    bottom: 22vh;
+    left: 6.2vw;
+    z-index: 1000;
+
+    animation-name: up-down-red-arrow-stop-3;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}

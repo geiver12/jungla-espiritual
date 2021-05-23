@@ -1,0 +1,260 @@
+@keyframes up-down-red-arrow-stop-5 {
+    0% {
+        top: 280px;
+    }
+    50% {
+        top: 200px;
+    }
+    100% {
+        top: 280px;
+    }
+}
+
+#stop-5-static-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    object-fit: fill;
+}
+
+#cars {
+    position: absolute;
+    top: 10vh;
+    right: 5vw;
+    width: 40vw;
+    z-index: 900;
+    cursor: pointer;
+}
+
+#stop-5-supercontainer {
+    position: absolute;
+    top: 0;
+    left: 5vw;
+    height: 600px;
+    width: 800px;
+}
+
+#stop-5-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#finish {
+    position: absolute;
+    width: 400px;
+    bottom: 0;
+    left: 200px;
+    z-index: 1002;
+}
+
+#hand {
+    position: absolute;
+    width: 200px;
+    bottom: 150px;
+    left: 450px;
+    z-index: 1000;
+}
+
+#stop-5-action {
+    position: absolute;
+    width: 200px;
+    bottom: 150px;
+    left: 450px;
+    z-index: 1005;
+    cursor: pointer;
+    height: 130px;
+}
+
+#driver-1 {
+    position: absolute;
+    width: 100px;
+    top: 50px;
+    right: 80px;
+    z-index: 1001;
+}
+
+#driver-1.active {
+    top: unset;
+    bottom: 0;
+    left: 180px;
+    z-index: 1002;
+}
+
+.coach {
+    position: absolute;
+    z-index: 1001;
+    bottom: 0;
+    left: 0;
+}
+
+#clebrate {
+    position: absolute;
+    bottom: -50px;
+    z-index: 1003;
+    left: 200px;
+    opacity: 0;
+    display: none;
+}
+
+#stop-5-arrow-red {
+    position: absolute;
+    top: 280px;
+    right: 210px;
+    width: 70px;
+    z-index: 1003;
+
+    animation-name: up-down-red-arrow-stop-5;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+.stop-5-dialog,
+#stop-5-image-1,
+#stop-5-image-2,
+#stop-5-dialog-2,
+#stop-5-dialog-4,
+#stop-5-image-3,
+#stop-5-image-4,
+.coach {
+    opacity: 0;
+    display: none;
+    transition: opacity 0.7s ease-in-out;
+    z-index: 1004;
+}
+
+.stop-5-text:hover {
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+#stop-5-image-1,
+#stop-5-image-2,
+#stop-5-image-3,
+#stop-5-image-4,
+#stop-5-dialog-2,
+#stop-5-dialog-4 {
+    position: absolute;
+}
+
+.stop-5-text {
+    font-family: "roboto";
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+#stop-5-arrow-red {
+    opacity: 0;
+    display: none;
+}
+
+.stop-5-dialog.show,
+#stop-5-arrow-red.show,
+#stop-5-image-1.show,
+#stop-5-image-2.show,
+#stop-5-dialog-2.show,
+#stop-5-image-3.show,
+#stop-5-image-4.show,
+#stop-5-dialog-4.show,
+#clebrate.show,
+.coach.show {
+    opacity: 1;
+    display: unset;
+}
+
+#stop-5-dialog-0-container {
+    width: 160px;
+    top: 0px;
+    right: 200px;
+}
+
+#stop-5-dialog-0 .dialog-text-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1.7rem;
+    font-size: 1rem;
+}
+
+#stop-5-dialog-0-text {
+    text-align: center;
+}
+
+#stop-5-dialog-0-text,
+#stop-5-dialog-1-text {
+    font-family: SimplyRounded-Bold;
+}
+
+#stop-5-dialog-0-text{
+    font-size: 1rem !important;
+}
+
+#stop-5-dialog-1-container {
+    width: 460px;
+    bottom: 250px;
+    right: 50px;
+}
+
+#stop-5-dialog-1-container:hover{
+    width: 660px;
+}
+
+#stop-5-dialog-1 .dialog-text-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1.7rem;
+    font-size: 1rem;
+}
+
+#stop-5-image-1 {
+    z-index: 1010;
+    width: 220px;
+    bottom: 295px;
+    left: 320px;
+}
+#stop-5-image-2 {
+    z-index: 1010;
+    width: 220px;
+    bottom: 295px;
+    left: 560px;
+}
+#stop-5-dialog-2 {
+    right: 0px;
+    bottom: 250px;
+}
+
+#stop-5-dialog-3-container {
+    width: 400px;
+    bottom: 250px;
+    right: 50px;
+}
+
+#stop-5-dialog-3-container:hover{
+    width: 570px;
+}
+
+#stop-5-dialog-3 .dialog-text-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.3rem;
+    font-size: 1rem;
+}
+
+#stop-5-image-3 {
+    z-index: 1010;
+    width: 220px;
+    bottom: 295px;
+    left: 320px;
+}
+#stop-5-image-4 {
+    z-index: 1010;
+    width: 220px;
+    bottom: 295px;
+    left: 560px;
+}
+#stop-5-dialog-4 {
+    right: 0px;
+    bottom: 250px;
+}

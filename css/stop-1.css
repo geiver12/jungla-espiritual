@@ -1,0 +1,350 @@
+@keyframes up-down-arrow-stop-1 {
+    0% {
+        bottom: 74%;
+    }
+    50% {
+        bottom: 79%;
+    }
+    100% {
+        bottom: 74%;
+    }
+}
+
+@keyframes arrow-stop-1-hide {
+    0% {
+        top: 20vh;
+    }
+    100% {
+        top: 40vh;
+    }
+}
+
+@keyframes up-down-stop-1-image-ilustration-action {
+    0% {
+        bottom: 75%;
+    }
+    50% {
+        bottom: 72%;
+    }
+    100% {
+        bottom: 75%;
+    }
+}
+
+@keyframes stop-1-image-ilustration-action-show {
+    0% {
+        bottom: 50%;
+    }
+    100% {
+        bottom: 72%;
+    }
+}
+
+.action-stop-1 {
+    position: absolute;
+    bottom: 25%;
+    width: 20vw;
+    height: 50%;
+    left: 18vh;
+    z-index: 5000;
+    cursor: pointer;
+}
+
+.inactive-action {
+    display: none;
+}
+
+#stop-1-static-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+#stop-1-container {
+    width: 100%;
+    position: relative;
+}
+
+#back-image-stop-1 {
+    margin-top: 20vh;
+    width: 100%;
+}
+
+#arrow-get-on {
+    position: absolute;
+    left: 20vw;
+    bottom: 74%;
+    height: 12vh;
+
+    animation-name: up-down-arrow-stop-1;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+#arrow-get-on:hover {
+    animation: up-down-arrow-stop-1 2s infinite, hvr-pulse 1s infinite;
+}
+
+#stop-1-image-ilustration-action {
+    position: absolute;
+    left: 20vw;
+    bottom: 75%;
+    height: 23vh;
+    opacity: 0;
+    display: none;
+
+    animation-name: up-down-stop-1-image-ilustration-action;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+/* Dialog get on */
+#stop-1-dialog-get-on-container {
+    bottom: 83%;
+    left: 3vw;
+    width: 150px;
+}
+
+#stop-1-dialog-get-on .dialog-text-container {
+    padding-top: 1.6rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Dialog action */
+
+#stop-1-dialog-action-container {
+    opacity: 0;
+    display: none;
+    bottom: 70%;
+    left: 32vw;
+    width: 240px;
+    cursor: pointer;
+}
+
+#stop-1-dialog-action-container:hover {
+    width: 340px;
+}
+
+#stop-1-dialog-action .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 0.8rem;
+    padding-top: 1.7rem;
+    font-size: 1.1rem;
+}
+
+.stop-1-item-to-show:hover #stop-1-dialog-action .dialog-text-container {
+    font-size: 1.8rem;
+}
+
+.stop-1-item-to-hide {
+    transition: opacity 0.7s ease-in-out;
+}
+
+.stop-1-item-to-hide.hidden {
+    opacity: 0;
+    display: none;
+}
+
+#arrow-get-on.stop-1-item-to-hide.hidden {
+    animation-name: arrow-stop-1-hide;
+    animation-iteration-count: 1;
+    animation-duration: 0.7s;
+}
+
+.stop-1-item-to-show {
+    transition: opacity 1.5s linear;
+}
+
+.stop-1-item-to-show.show {
+    opacity: 1 !important;
+    display: unset !important;
+}
+
+#stop-1-image-ilustration-action.stop-1-item-to-show.show {
+    animation: up-down-stop-1-image-ilustration-action 4s infinite, stop-1-image-ilustration-action-show 2s 1;
+}
+
+/* dialog 2 */
+
+#stop-1-dialog-2-container {
+    opacity: 0;
+    display: none;
+    bottom: 70%;
+    left: 32vw;
+    width: 240px;
+    cursor: pointer;
+}
+
+#stop-1-dialog-2-container {
+    width: 480px;
+}
+
+#stop-1-dialog-2-container:hover {
+    width: 580px;
+}
+
+#stop-1-dialog-2-text-container {
+    font-family: "roboto";
+    font-weight: 400;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    padding-left: 1.3rem;
+    padding-right: 0.8rem;
+    padding-bottom: 1rem;
+}
+
+.stop-1-item-to-show:hover #stop-1-dialog-2-text-container {
+    font-size: 1.6rem;
+}
+/* dialog 3 */
+
+#stop-1-dialog-3-container {
+    opacity: 0;
+    display: none;
+    bottom: 48%;
+    left: 32vw;
+    width: 240px;
+    cursor: pointer;
+}
+
+#stop-1-dialog-3-container {
+    width: 480px;
+}
+
+#stop-1-dialog-3-container:hover {
+    width: 580px;
+}
+
+#stop-1-dialog-3-text-container {
+    font-family: "roboto";
+    font-weight: 400;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    padding-left: 1.3rem;
+    padding-right: 0.8rem;
+    padding-bottom: 1rem;
+}
+
+.stop-1-item-to-show:hover #stop-1-dialog-3-text-container {
+    font-size: 1.6rem;
+}
+
+/* dialog 4 */
+
+#stop-1-dialog-4-img {
+    position: absolute;
+    opacity: 0;
+    display: none;
+    bottom: 40%;
+    left: 32vw;
+    width: 550px;
+    transition: opacity 0.7s ease-in-out;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#stop-1-dialog-4-img:hover {
+    width: 750px !important;
+    bottom: 20%;
+}
+
+#stop-1-dialog-4-img.show {
+    opacity: 1;
+    display: unset;
+}
+
+/* dialog 5 */
+
+#stop-1-dialog-5-container {
+    opacity: 0;
+    display: none;
+    bottom: 70%;
+    left: 32vw;
+    width: 240px;
+    cursor: pointer;
+}
+
+#stop-1-dialog-5-container {
+    width: 680px;
+}
+
+#stop-1-dialog-5-container:hover {
+    width: 790px;
+}
+
+#stop-1-dialog-5-text-container {
+    font-family: "roboto";
+    font-weight: 400;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    padding-left: 1.3rem;
+    padding-right: 0.8rem;
+    padding-bottom: 1rem;
+}
+
+.stop-1-item-to-show:hover #stop-1-dialog-5-text-container {
+    font-size: 1.6rem;
+}
+
+/* dialog 6 */
+
+#stop-1-dialog-6-img {
+    position: absolute;
+    opacity: 0;
+    display: none;
+    bottom: 40%;
+    left: 32vw;
+    width: 550px;
+    transition: opacity 0.7s ease-in-out;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#stop-1-dialog-6-img:hover {
+    width: 750px !important;
+    bottom: 20%;
+}
+
+#stop-1-dialog-6-img.show {
+    opacity: 1;
+    display: unset;
+}
+
+/* dialog 7 */
+
+#stop-1-dialog-7-container {
+    opacity: 0;
+    display: none;
+    bottom: 70%;
+    left: 32vw;
+    width: 240px;
+}
+
+#stop-1-dialog-7-container {
+    width: 580px;
+}
+
+#stop-1-dialog-7-container:hover {
+    width: 680px;
+}
+
+#stop-1-dialog-7-text-container {
+    font-family: "roboto";
+    font-weight: 400;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    padding-left: 1.3rem;
+    padding-right: 0.8rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+.stop-1-item-to-show:hover #stop-1-dialog-7-text-container {
+    font-size: 1.6rem;
+    padding-top: 0.5rem;
+}

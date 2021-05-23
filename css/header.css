@@ -1,0 +1,74 @@
+header {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+#header-head {
+    position: relative;
+}
+
+#header-head,
+#header-head-image {
+    width: 100%;
+}
+
+#header-title-elements-container {
+    margin-bottom: 0 !important;
+}
+
+#header-title {
+    position: absolute;
+    width: 100%;
+}
+
+#logo-header {
+    width: 8vw;
+}
+
+#header-title-text h1 {
+    font-family: SimplyRounded-Bold;
+    color: #71bb79;
+    font-size: 5rem;
+}
+
+#page-description {
+    text-align: center;
+    max-width: 90vw;
+    margin: auto;
+    font-family: "roboto";
+    font-weight: 700;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#header-video {
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+}
+
+#header-content {
+    width: 90vw;
+    margin: auto;
+}
+
+#header-texts {
+    color: white;
+    font-family: SimplyRounded-Bold;
+}
+
+#header-texts h2 {
+    text-align: center;
+}
+
+#header-texts p {
+    margin: 3vh 2vw;
+    font-size: 1.2rem;
+}
+
+#header-subtitle {
+    margin-top: 5vh;
+    text-align: center;
+}

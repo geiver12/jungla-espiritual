@@ -1,0 +1,139 @@
+@keyframes menu-stop-1 {
+    0% {
+        top: 56%;
+    }
+    50% {
+        top: 54%;
+    }
+    100% {
+        top: 56%;
+    }
+}
+
+/************ Menu *************/
+
+#stops-menu {
+    position: absolute;
+    top: 0;
+    z-index: 3000;
+}
+
+#stops-menu ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#stops-title,
+.stop-menu {
+    background-color: #386338;
+    color: white;
+    font-family: SimplyRounded-Bold;
+    text-align: center;
+    box-sizing: unset;
+    cursor: pointer;
+}
+
+#stops-title {
+    font-size: 27.9px;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    padding: 8px 15px;
+}
+
+.stop-menu {
+    display: table;
+    font-size: 35px;
+    width: 62px;
+    padding: 20px 0px;
+    border-bottom: 3px solid white;
+}
+
+#stop-menu-list-6 {
+    border-radius: 0 0 50px 50px;
+    border-bottom: unset;
+}
+
+/********** Park View *************/
+
+#logo {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    z-index: 2;
+    border-radius: 22%;
+}
+
+#park-dialog {
+    width: 300px;
+    position: absolute;
+    right: 60px;
+    top: 40vh;
+    cursor: pointer;
+    font-family: SimplyRounded-Bold;
+}
+
+#park-dialog:hover {
+    width: 500px;
+    font-size: 2rem;
+    right: 60px;
+    top: 20vh;
+}
+
+#stop-0-static-content {
+    position: absolute;
+    margin-left: 3vw;
+}
+
+#stop-0-static-content #back-image {
+    width: 60vw;
+}
+
+.stop-icon {
+    position: absolute;
+    width: 4vw;
+    cursor: pointer;
+}
+
+#stop-menu-1 {
+    top: 56%;
+    left: 25vw;
+
+    animation: menu-stop-1 2s infinite;
+}
+
+#stop-menu-1:hover {
+    animation: menu-stop-1 2s infinite, hvr-pulse 1s infinite;
+}
+
+#stop-menu-2 {
+    top: 38%;
+    left: 6vw;
+}
+
+#stop-menu-3 {
+    top: 11%;
+    left: 5vw;
+}
+
+#stop-menu-4 {
+    top: 4%;
+    left: 20vw;
+}
+
+#stop-menu-5 {
+    top: 28%;
+    left: 45vw;
+}
+
+#stop-menu-6 {
+    top: 50%;
+    left: 43vw;
+}
+
+#park-map {
+    display: none !important;
+}
+
+#park-map.show {
+    display: block !important;
+}

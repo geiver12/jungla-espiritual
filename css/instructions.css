@@ -1,0 +1,106 @@
+#instructions-section {
+    background-color: black;
+}
+
+@media screen and (max-height: 800px) {
+    #instructions-section {
+        height: 140vh;
+    }
+}
+
+#insctructions {
+    color: white;
+    font-family: "roboto";
+    font-weight: 700;
+    margin-bottom: 0 !important;
+}
+
+#instructions-title {
+    text-align: center;
+}
+
+.instructions-title h2 {
+    font-family: SimplyRounded-Bold;
+    color: #71bb79;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.instruction {
+    font-size: 1.1rem;
+    width: 20vw;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.instruction-icon {
+    width: 5vw;
+}
+
+#stop-instruction-icon {
+    width: 4vw;
+}
+
+#intermediate {
+    background-color: white;
+    width: 0.5rem;
+    height: 9vh;
+}
+
+.images-instruction {
+    margin-top: 1.5rem;
+}
+
+#button-continue {
+    color: white;
+    height: 50px;
+    width: 10vw;
+    border: 2px solid #71bb79;
+    background-color: unset;
+    border-radius: 20px;
+    font-family: "roboto";
+    font-weight: 500;
+}
+
+#button-continue:hover {
+    color: white;
+    height: 50px;
+    width: 10vw;
+    border: 2px solid #71bb79;
+    background-color: #71bb79;
+    border-radius: 20px;
+    font-family: "roboto";
+    font-weight: 500;
+}
+
+#map {
+    width: 90vw;
+    height: 30vh;
+    margin: auto;
+    margin-bottom: 1vh;
+}
+
+#miraflores-title {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+#button-map {
+    color: white;
+    height: 40px;
+    width: 10vw;
+    border: 2px solid #71bb79;
+    background-color: #71bb79;
+    border-radius: 20px;
+    font-family: "roboto";
+    font-weight: 500;
+    margin-right: 5vw;
+}
+
+#instruction-3-icon {
+    width: 1.8vw;
+}
+
+#instructions-3-text {
+    margin: 0 !important;
+}

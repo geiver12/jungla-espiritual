@@ -1,0 +1,313 @@
+@keyframes up-down-red-arrow-stop-4 {
+    0% {
+        top: 250px;
+    }
+    50% {
+        top: 200px;
+    }
+    100% {
+        top: 250px;
+    }
+}
+
+#stop-4-static-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    object-fit: fill;
+}
+
+#stop-4-supercontainer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#stop-4-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#fire-man,
+#game-stop-4,
+#fire,
+#shot-to-blanck,
+#stop-4-arrow-red {
+    position: absolute;
+}
+
+#fire-man {
+    z-index: 1500;
+    top: 340px;
+    right: 600px;
+    width: 200px;
+    cursor: pointer;
+}
+
+#game-stop-4 {
+    z-index: 1000;
+    top: 5vh;
+    left: 5vw;
+    width: 35vw;
+    cursor: pointer;
+}
+
+#fire {
+    z-index: 1501;
+    width: 300px;
+    right: 180px;
+    top: 130px;
+    transform: rotate(-7deg);
+    opacity: 0;
+    display: none;
+}
+
+#shot-to-blanck {
+    z-index: 1400;
+    right: 10px;
+    top: 50px;
+    height: 500px;
+}
+
+#stop-4-arrow-red {
+    top: 250px;
+    right: 730px;
+    width: 60px;
+    z-index: 1001;
+
+    animation-name: up-down-red-arrow-stop-4;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+.stop-4-dialog,
+.stop-4-cloud,
+#stop-4-dialog-pull-container,
+#stop-4-dialog-3-image-supercontainer {
+    opacity: 0;
+    display: none;
+    transition: opacity 0.7s ease-in-out;
+    z-index: 1001;
+    cursor: pointer;
+}
+
+.stop-4-text {
+    font-family: "roboto";
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.stop-4-dialog:hover .stop-4-text {
+    font-size: 1.6rem;
+}
+
+#stop-4-arrow-red {
+    opacity: 0;
+    display: none;
+}
+
+.stop-4-dialog.show,
+.stop-4-cloud.show,
+#stop-4-dialog-pull-container.show,
+#fire.show,
+#stop-4-arrow-red.show,
+#stop-4-dialog-3-image-supercontainer.show {
+    opacity: 1;
+    display: unset;
+}
+
+.stop-4-cloud {
+    position: absolute;
+    width: 500px;
+    top: 50px;
+    right: 770px;
+}
+
+.stop-4-cloud:hover {
+    width: 700px;
+    right: 570px;
+    z-index: 10002;
+}
+
+/*********/
+
+#stop-4-dialog-0-container {
+    width: 100px;
+    top: 250px;
+    right: 600px;
+}
+
+#stop-4-dialog-0-container:hover {
+    width: 130px;
+}
+
+#stop-4-dialog-0 .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 1rem;
+    padding-top: 1.2rem;
+    font-size: 1rem;
+}
+
+#stop-4-dialog-0-text {
+    font-family: SimplyRounded-Bold;
+}
+
+#stop-4-dialog-1-container {
+    width: 430px;
+    top: 160px;
+    right: 790px;
+}
+
+#stop-4-dialog-1-container:hover {
+    width: 580px;
+    right: 590px;
+    z-index: 10002;
+}
+
+#stop-4-dialog-1 .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 1rem;
+    padding-top: 0.8rem;
+    font-size: 1rem;
+}
+
+#stop-4-dialog-2-container {
+    width: 350px;
+    top: 200px;
+    right: 790px;
+}
+
+#stop-4-dialog-2-container:hover {
+    width: 480px;
+    right: 690px;
+    z-index: 10002;
+}
+
+#stop-4-dialog-2 .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 1rem;
+    padding-top: 0.8rem;
+    font-size: 1rem;
+}
+
+#stop-4-dialog-3-container {
+    width: 300px;
+    top: 90px;
+    right: 970px;
+}
+
+#stop-4-dialog-3-container:hover {
+    width: 500px;
+    right: 770px;
+}
+
+#stop-4-dialog-3 .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 1rem;
+    padding-top: 1.2rem;
+    font-size: 1rem;
+}
+
+#stop-4-dialog-3-image-supercontainer {
+    position: absolute;
+    top: 110px;
+    right: 760px;
+    z-index: 1002;
+}
+
+#stop-4-dialog-3-image-container {
+    position: relative;
+}
+
+#image-dialog-3 {
+    position: absolute;
+    right: 0;
+    z-index: 1001;
+    height: 200px;
+}
+
+#stop-4-dialog-4-container {
+    width: 460px;
+    top: 150px;
+    right: 820px;
+}
+
+#stop-4-dialog-4 .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 1rem;
+    padding-top: 1.2rem;
+    font-size: 1rem;
+}
+
+#stop-4-dialog-5-container {
+    width: 500px;
+    top: 50px;
+    right: 750px;
+}
+
+#stop-4-dialog-5-container:hover {
+    width: 670px;
+}
+
+#stop-4-dialog-5 .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 1rem;
+    padding-top: 1.2rem;
+    font-size: 1rem;
+}
+
+#stop-4-dialog-6-container {
+    width: 350px;
+    top: 300px;
+    right: 850px;
+}
+
+#stop-4-dialog-6-container:hover {
+    width: 480px;
+}
+
+#stop-4-dialog-6 .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 1rem;
+    padding-top: 1.2rem;
+    font-size: 1rem;
+}
+
+#stop-4-dialog-7-container {
+    width: 400px;
+    top: 10px;
+    right: 800px;
+}
+
+#stop-4-dialog-7-container:hover {
+    width: 500px;
+}
+
+#stop-4-dialog-7 .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+#stop-4-dialog-8-container {
+    width: 500px;
+    top: 160px;
+    right: 750px;
+}
+
+#stop-4-dialog-8-container:hover {
+    width: 660px;
+}
+
+#stop-4-dialog-8 .dialog-text-container {
+    padding-left: 1.3rem;
+    padding-right: 1rem;
+    padding-top: 1.2rem;
+    font-size: 1rem;
+}

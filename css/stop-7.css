@@ -1,0 +1,96 @@
+#stop-7-static-content {
+    object-fit: fill;
+    width: 100%;
+}
+
+#stop-7-images {
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+}
+
+#woman-1-supercontainer,
+#man-1-supercontainer,
+#woman-2-supercontainer,
+#man-2-supercontainer {
+    position: absolute;
+}
+
+#woman-1-supercontainer .person,
+#man-1-supercontainer .person,
+#woman-2-supercontainer .person,
+#man-2-supercontainer .person {
+    height: 40vh;
+}
+
+#woman-1-supercontainer .action-icon,
+#man-1-supercontainer .action-icon,
+#woman-2-supercontainer .action-icon,
+#man-2-supercontainer .action-icon {
+    display: block;
+    margin: auto;
+}
+
+#woman-1-supercontainer .action-icon {
+    margin: unset;
+}
+
+#woman-1-supercontainer {
+    top: 5vh;
+    left: 25vw;
+    z-index: 1001;
+}
+
+#man-1-supercontainer {
+    top: 8vh;
+    left: 35vw;
+    z-index: 1000;
+}
+
+#woman-2-supercontainer {
+    top: 10vh;
+    left: 63vw;
+}
+
+#man-2-supercontainer {
+    top: 2vh;
+    left: 82vw;
+}
+
+#stop-7-text {
+    font-family: SimplyRounded-Bold;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+    padding-top: 10vh;
+}
+
+#button-donar {
+    color: white;
+    height: 50px;
+    width: 10vw;
+    border: 2px solid #5eb366;
+    background-color: #5eb366;
+    border-radius: 20px;
+    font-family: "roboto";
+    font-weight: 500;
+    margin: auto;
+    font-size: 1.5rem;
+    margin-top: 5vh;
+}
+
+#button-tell-history {
+    position: absolute;
+    bottom: 20vh;
+    left: 45vw;
+    color: white;
+    height: 40px;
+    padding: 0 20px;
+    border: 2px solid #5eb366;
+    background-color: #5eb366;
+    border-radius: 20px;
+    font-family: "roboto";
+    font-weight: 500;
+    font-size: 1rem;
+}
