@@ -4,9 +4,12 @@
 }
 
 #stop-7-images {
-    width: 100vw;
     height: 60vh;
     position: relative;
+    width: 998px;
+    margin: auto;
+    margin-top: 20vh;
+    
 }
 
 #woman-1-supercontainer,

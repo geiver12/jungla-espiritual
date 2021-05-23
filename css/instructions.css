@@ -1,5 +1,7 @@
 #instructions-section {
-    background-color: black;
+    width: 998px;
+    margin: auto;
+    margin-top: 20vh;
 }
 
 @media screen and (max-height: 800px) {
@@ -12,30 +14,31 @@
     color: white;
     font-family: "roboto";
     font-weight: 700;
-    margin-bottom: 0 !important;
+    margin-top  : 5%;
 }
 
-#instructions-title {
-    text-align: center;
-}
+
 
 .instructions-title h2 {
     font-family: SimplyRounded-Bold;
     color: #71bb79;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 
 .instruction {
-    font-size: 1.1rem;
-    width: 20vw;
+    font-size: 1rem;
+    width: 33.33%;
     text-align: center;
-    margin-top: 1vh;
+    margin-top: 1%;
 }
 
 .instruction-icon {
     width: 5vw;
 }
+#instruction-icon-2{
+    width: 8vw
+} 
 
 #stop-instruction-icon {
     width: 4vw;
@@ -48,36 +51,36 @@
 }
 
 .images-instruction {
-    margin-top: 1.5rem;
+    margin-top: 1%;
 }
 
 #button-continue {
     color: white;
-    height: 50px;
-    width: 10vw;
+    width: auto;
+    font-family: sans-serif;
+    padding: 0 1vw;
+    font-size: 1.5rem; 
+    margin: 5vh auto;
     border: 2px solid #71bb79;
-    background-color: unset;
+    background-color: #71bb79;
     border-radius: 20px;
-    font-family: "roboto";
     font-weight: 500;
+
 }
 
 #button-continue:hover {
     color: white;
-    height: 50px;
-    width: 10vw;
     border: 2px solid #71bb79;
     background-color: #71bb79;
-    border-radius: 20px;
-    font-family: "roboto";
-    font-weight: 500;
+
 }
 
 #map {
     width: 90vw;
-    height: 30vh;
-    margin: auto;
+    height: 40vh;
+    margin: auto;   
     margin-bottom: 1vh;
+    border:2px solid white;
 }
 
 #miraflores-title {
@@ -87,14 +90,18 @@
 
 #button-map {
     color: white;
-    height: 40px;
-    width: 10vw;
-    border: 2px solid #71bb79;
+    width: auto;
+    font-family: sans-serif;
+    padding: 0 2.5%;
+    font-size: 1.5rem;  
+    border: 1px solid #71bb79;
     background-color: #71bb79;
     border-radius: 20px;
-    font-family: "roboto";
+    text-decoration: none;
     font-weight: 500;
-    margin-right: 5vw;
+    position: absolute;
+    right: 0;
+    top: 5px;
 }
 
 #instruction-3-icon {
@@ -103,4 +110,8 @@
 
 #instructions-3-text {
     margin: 0 !important;
+}
+
+#instructions-title{
+    position: relative;
 }

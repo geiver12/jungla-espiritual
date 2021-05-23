@@ -48,8 +48,10 @@ body {
 .stop-view,
 #instructions-section {
     height: 100vh;
-    width: 100vw;
+    margin-top: 10vh;
+    width: 998px;
     position: relative;
+    margin: auto;
 }
 
 nav {
@@ -138,16 +140,17 @@ nav:hover .floating-action:hover {
 
 #river-1 {
     position: absolute;
-    width: 100vw;
-    top: 85%;
+    width: 100%;
+    top: 360vh;
+    left: 0;    
     height: 210vh;
     z-index: -1000;
 }
 
 #river-2 {
     position: absolute;
-    top: 20%;
-    width: 100vw;
+    top: 570vh;
+    width: 100%;
     height: 380vh;
     z-index: -1000;
 }
@@ -165,5 +168,5 @@ nav:hover .floating-action:hover {
 .time-line-container {
     position: absolute;
     bottom: 3vh;
-    width: 100vw;
+    width: 100%;
 }

@@ -43,7 +43,13 @@
 <body>
     <main id="content-body">
 
-        <!-- Header -->
+
+        <img id="river-1" src="images/river-1.png" alt="river-1">
+
+        
+        <img id="river-2" src="images/river-2.png" alt="river-2">
+
+        
         <header id="header">
 
             <!-- float icons -->
@@ -105,24 +111,27 @@
                     <!-- google maps -->
                     <iframe id="map"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10480.807081334666!2d-71.95529197321756!3d1.3374647220310927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e19587f84a8c077%3A0x6c5837b9785c9f0c!2sMiraflores%2C%20Guaviare!5e1!3m2!1ses!2sco!4v1620000061384!5m2!1ses!2sco"
-                        allowfullscreen="" loading="lazy"></iframe>
+                        allowfullscreen="" loading="lazy">
+                    </iframe>
+
                 </div>
 
-                <!-- button caño sabana -->
-                <div class="d-flex justify-content-end bd-highlight mb-3">
-                    <a href="https://www.agendahoy.co/2018/12/san-jose-del-guaviare-tiene-su-cano.html" target="_blank">
-                        <button id="button-map" class="hvr-pulse-grow">Caño Sabana</button>
-                    </a>
-                </div>
+
+
 
                 <!-- instructions -->
                 <div id="instructions-title" class="instructions-title">
                     <h2>Instrucciones</h2>
+                    <a href="https://www.agendahoy.co/2018/12/san-jose-del-guaviare-tiene-su-cano.html" target="_blank"
+                        id="button-map" class="hvr-pulse-grow">
+                        Caño Sabana
+                    </a>
                 </div>
-                <div id="insctructions" class="d-flex justify-content-evenly bd-highlight mb-3">
+
+                <div id="insctructions" class="d-flex justify-content-evenly mb-4">
 
                     <!-- instructions column 1 -->
-                    <div class="p-2 bd-highlight instruction">
+                    <div class="p-1 bd-highlight instruction">
                         Para iniciar el recorrido debes hacer click en las paradas y luego donde te indique la flecha
                         <div
                             class="images-instruction d-flex justify-content-center align-items-center bd-highlight mb-3">
@@ -141,26 +150,26 @@
                     </div>
 
                     <!-- instructions column 2 -->
-                    <div class="p-2 bd-highlight instruction">
+                    <div class="p-1 bd-highlight instruction">
                         Para continuar la historia debes hacer click en las diferentes atracciones
-                        <div
-                            class="images-instruction d-flex justify-content-center align-items-center bd-highlight mb-3">
+                        <div class="images-instruction d-flex   flex-column align-items-center bd-highlight mb-3">
                             <div class="p-2 bd-highlight instruction">
-                                <img src="images/header/atractions.svg" class="instruction-icon"
+                                <img src="images/header/atractions.svg" class="instruction-icon" id="instruction-icon-2"
                                     alt="action-instruction">
                             </div>
+                            <button id="button-continue" class="hvr-buzz-out">Comenzar</button>
                         </div>
                     </div>
 
                     <!-- instructions column 3 -->
-                    <div class="p-2 bd-highlight instruction">
+                    <div class="p-1 bd-highlight instruction">
                         <p class="instructions-3-text">
                             Si quieres regresar en la historia puedes hacerlo haciendo click en el siguiente Botón
                         </p>
 
                         <div
                             class="instructions-3-icon-container images-instruction d-flex justify-content-center align-items-center bd-highlight mb-3 ">
-                            <div class="p-2 bd-highlight instruction">
+                            <div class=" bd-highlight instruction">
                                 <img src="images/go-to-up.svg" class="instruction-3-icon" alt="go-to-up">
                             </div>
                         </div>
@@ -169,20 +178,14 @@
                         </p>
                         <div
                             class="instructions-3-icon-container images-instruction d-flex justify-content-center align-items-center bd-highlight mb-3 ">
-                            <div class="p-2 bd-highlight instruction">
+                            <div class="p bd-highlight instruction">
                                 <img src="images/go-to-map.svg" class="instruction-3-icon" alt="go-to-up">
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- button start -->
-                <div id="button-continue-container"
-                    class="d-flex justify-content-center align-items-center bd-highlight mb-3">
-                    <div class="p-2 bd-highlight">
-                        <button id="button-continue" class="hvr-buzz-out">Comenzar</button>
-                    </div>
-                </div>
+
             </div>
         </section>
 
@@ -231,23 +234,6 @@
 
         <!-- Stop 1 -->
         <section id="stop-1" class="stop-view">
-
-            <!-- Time line -->
-            <div class="time-line-container">
-                <div class="d-flex justify-content-center">
-                    <img id="stop-1-time-line-1" src="images/stop-1/time-line/1.svg" alt="time-line" class="time-line">
-                    <img id="stop-1-time-line-2" src="images/stop-1/time-line/2.svg" alt="time-line" class="time-line">
-                    <img id="stop-1-time-line-3" src="images/stop-1/time-line/3.svg" alt="time-line" class="time-line">
-                    <img id="stop-1-time-line-4" src="images/stop-1/time-line/4.svg" alt="time-line" class="time-line">
-                    <img id="stop-1-time-line-5" src="images/stop-1/time-line/5.svg" alt="time-line" class="time-line">
-                    <img id="stop-1-time-line-6" src="images/stop-1/time-line/6.svg" alt="time-line" class="time-line">
-                    <img id="stop-1-time-line-7" src="images/stop-1/time-line/7.svg" alt="time-line" class="time-line">
-                    <img id="stop-1-time-line-8" src="images/stop-1/time-line/8.svg" alt="time-line" class="time-line">
-                </div>
-            </div>
-
-            <!-- river 1 -->
-            <img id="river-1" src="images/river-1.png" alt="river-1">
 
             <div id="stop-1-static-content">
                 <div id="stop-1-container">
@@ -347,6 +333,19 @@
 
                     <!-- game stop 1 -->
                     <img id="back-image-stop-1" src="images/stop-1/stop-1.png" alt="stop-1">
+                </div>
+            </div>
+            <!-- Time line -->
+            <div class="time-line-container">
+                <div class="d-flex justify-content-center">
+                    <img id="stop-1-time-line-1" src="images/stop-1/time-line/1.svg" alt="time-line" class="time-line">
+                    <img id="stop-1-time-line-2" src="images/stop-1/time-line/2.svg" alt="time-line" class="time-line">
+                    <img id="stop-1-time-line-3" src="images/stop-1/time-line/3.svg" alt="time-line" class="time-line">
+                    <img id="stop-1-time-line-4" src="images/stop-1/time-line/4.svg" alt="time-line" class="time-line">
+                    <img id="stop-1-time-line-5" src="images/stop-1/time-line/5.svg" alt="time-line" class="time-line">
+                    <img id="stop-1-time-line-6" src="images/stop-1/time-line/6.svg" alt="time-line" class="time-line">
+                    <img id="stop-1-time-line-7" src="images/stop-1/time-line/7.svg" alt="time-line" class="time-line">
+                    <img id="stop-1-time-line-8" src="images/stop-1/time-line/8.svg" alt="time-line" class="time-line">
                 </div>
             </div>
         </section>
@@ -495,35 +494,16 @@
         <!-- Stop 3 -->
         <section id="stop-3" class="stop-view">
 
-            <!-- Time line -->
-            <div class="time-line-container">
-                <div class="d-flex justify-content-center">
-                    <img id="stop-3-time-line-1" src="images/stop-3/time-line/1.svg" alt="time-line" class="time-line">
-                    <img id="stop-3-time-line-2" src="images/stop-3/time-line/2.svg" alt="time-line" class="time-line">
-                    <img id="stop-3-time-line-3" src="images/stop-3/time-line/3.svg" alt="time-line" class="time-line">
-                    <img id="stop-3-time-line-4" src="images/stop-3/time-line/4.svg" alt="time-line" class="time-line">
-                    <img id="stop-3-time-line-5" src="images/stop-3/time-line/5.svg" alt="time-line" class="time-line">
-                    <img id="stop-3-time-line-6" src="images/stop-3/time-line/6.svg" alt="time-line" class="time-line">
-                    <img id="stop-3-time-line-7" src="images/stop-3/time-line/7.svg" alt="time-line" class="time-line">
-                    <img id="stop-3-time-line-8" src="images/stop-3/time-line/8.svg" alt="time-line" class="time-line">
-                    <img id="stop-3-time-line-9" src="images/stop-3/time-line/9.svg" alt="time-line" class="time-line">
-                    <img id="stop-3-time-line-10" src="images/stop-3/time-line/10.svg" alt="time-line"
-                        class="time-line">
-                    <img id="stop-3-time-line-11" src="images/stop-3/time-line/11.svg" alt="time-line"
-                        class="time-line">
-                    <img id="stop-3-time-line-12" src="images/stop-3/time-line/12.svg" alt="time-line"
-                        class="time-line">
-                </div>
-            </div>
-
+            
             <div id="castle-supercontainer">
                 <div id="castle-container">
 
                     <!-- castle, man and demon hand -->
+                    <img id="castle-left" src="images/stop-3/castle-left.svg" alt="castle-left">
                     <img id="castle-right" src="images/stop-3/castle-right.svg" alt="castle-right">
                     <img id="demon-hand" src="images/stop-3/demon-hand.svg" alt="demon-hand">
                     <img id="chain-man" src="images/stop-3/chain-man.svg" alt="chain-man">
-                    <img id="castle-left" src="images/stop-3/castle-left.svg" alt="castle-left">
+                    
 
                     <!-- Pull -->
                     <div id="stop-3-dialog-pull-container" class="dialog-container show">
@@ -645,39 +625,39 @@
                 </div>
             </div>
 
-            <!-- red arrow -->
+            
             <img id="stop-3-arrow-red" src="images/arrow-down-red.svg" alt="arrow">
 
-            <!-- buttons -->
             <img id="button-deactivate" src="images/stop-3/button-deactivate.svg" alt="button-deactivate">
             <img id="button-actived" src="images/stop-3/button-actived.svg" alt="button-actived">
 
-            <!-- Militars image -->
+            
             <img id="militars" src="images/stop-3/militars.png" alt="militars">
+
+            <div class="time-line-container">
+                <div class="d-flex justify-content-center">
+                    <img id="stop-3-time-line-1" src="images/stop-3/time-line/1.svg" alt="time-line" class="time-line">
+                    <img id="stop-3-time-line-2" src="images/stop-3/time-line/2.svg" alt="time-line" class="time-line">
+                    <img id="stop-3-time-line-3" src="images/stop-3/time-line/3.svg" alt="time-line" class="time-line">
+                    <img id="stop-3-time-line-4" src="images/stop-3/time-line/4.svg" alt="time-line" class="time-line">
+                    <img id="stop-3-time-line-5" src="images/stop-3/time-line/5.svg" alt="time-line" class="time-line">
+                    <img id="stop-3-time-line-6" src="images/stop-3/time-line/6.svg" alt="time-line" class="time-line">
+                    <img id="stop-3-time-line-7" src="images/stop-3/time-line/7.svg" alt="time-line" class="time-line">
+                    <img id="stop-3-time-line-8" src="images/stop-3/time-line/8.svg" alt="time-line" class="time-line">
+                    <img id="stop-3-time-line-9" src="images/stop-3/time-line/9.svg" alt="time-line" class="time-line">
+                    <img id="stop-3-time-line-10" src="images/stop-3/time-line/10.svg" alt="time-line"
+                        class="time-line">
+                    <img id="stop-3-time-line-11" src="images/stop-3/time-line/11.svg" alt="time-line"
+                        class="time-line">
+                    <img id="stop-3-time-line-12" src="images/stop-3/time-line/12.svg" alt="time-line"
+                        class="time-line">
+                </div>
+            </div>
 
         </section>
 
         <!-- Stop 4 -->
         <section id="stop-4" class="stop-view">
-
-            <!-- Time line -->
-            <div class="time-line-container">
-                <div class="d-flex justify-content-center">
-                    <img id="stop-4-time-line-1" src="images/stop-4/time-line/1.svg" alt="time-line" class="time-line">
-                    <img id="stop-4-time-line-2" src="images/stop-4/time-line/2.svg" alt="time-line" class="time-line">
-                    <img id="stop-4-time-line-3" src="images/stop-4/time-line/3.svg" alt="time-line" class="time-line">
-                    <img id="stop-4-time-line-4" src="images/stop-4/time-line/4.svg" alt="time-line" class="time-line">
-                    <img id="stop-4-time-line-5" src="images/stop-4/time-line/5.svg" alt="time-line" class="time-line">
-                    <img id="stop-4-time-line-6" src="images/stop-4/time-line/6.svg" alt="time-line" class="time-line">
-                    <img id="stop-4-time-line-7" src="images/stop-4/time-line/7.svg" alt="time-line" class="time-line">
-                    <img id="stop-4-time-line-8" src="images/stop-4/time-line/8.svg" alt="time-line" class="time-line">
-                    <img id="stop-4-time-line-9" src="images/stop-4/time-line/9.svg" alt="time-line" class="time-line">
-                    <img id="stop-4-time-line-10" src="images/stop-4/time-line/10.svg" alt="time-line"
-                        class="time-line">
-                    <img id="stop-4-time-line-11" src="images/stop-4/time-line/11.svg" alt="time-line"
-                        class="time-line">
-                </div>
-            </div>
 
             <div id="stop-4-supercontainer">
                 <div id="stop-4-container">
@@ -820,8 +800,26 @@
             <!-- stop game -->
             <img id="game-stop-4" src="images/stop-4/game-stop-4.svg" alt="game-stop-4">
 
-            <!-- river 2 -->
-            <img id="river-2" src="images/river-2.png" alt="river-2">
+
+            
+            <div class="time-line-container">
+                <div class="d-flex justify-content-center">
+                    <img id="stop-4-time-line-1" src="images/stop-4/time-line/1.svg" alt="time-line" class="time-line">
+                    <img id="stop-4-time-line-2" src="images/stop-4/time-line/2.svg" alt="time-line" class="time-line">
+                    <img id="stop-4-time-line-3" src="images/stop-4/time-line/3.svg" alt="time-line" class="time-line">
+                    <img id="stop-4-time-line-4" src="images/stop-4/time-line/4.svg" alt="time-line" class="time-line">
+                    <img id="stop-4-time-line-5" src="images/stop-4/time-line/5.svg" alt="time-line" class="time-line">
+                    <img id="stop-4-time-line-6" src="images/stop-4/time-line/6.svg" alt="time-line" class="time-line">
+                    <img id="stop-4-time-line-7" src="images/stop-4/time-line/7.svg" alt="time-line" class="time-line">
+                    <img id="stop-4-time-line-8" src="images/stop-4/time-line/8.svg" alt="time-line" class="time-line">
+                    <img id="stop-4-time-line-9" src="images/stop-4/time-line/9.svg" alt="time-line" class="time-line">
+                    <img id="stop-4-time-line-10" src="images/stop-4/time-line/10.svg" alt="time-line"
+                        class="time-line">
+                    <img id="stop-4-time-line-11" src="images/stop-4/time-line/11.svg" alt="time-line"
+                        class="time-line">
+                </div>
+            </div>
+            
         </section>
 
         <!-- Stop 5 -->
