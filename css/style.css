@@ -149,14 +149,14 @@ nav:hover .floating-action:hover {
     z-index: -1000;
 }
 
-/*Time line*/
+/*ee line*/
 
 .time-line {
     display: none;
 }
 
-.time-line-container {
-    width: 90vw;
+.time-line-exc {
+    width: 80%;
 }
 
 .time-line-container {
@@ -166,7 +166,7 @@ nav:hover .floating-action:hover {
 }
 
 .container-wrapper {
-    width: 998px;
+    width: 1440px;
     margin: auto;
 }
 
@@ -182,11 +182,65 @@ nav:hover .floating-action:hover {
     margin-top: 5px;
 }
 
+.social-nav .search {
+    position: relative;
+}
+
+.content-input {
+    
+    position: fixed;
+    right: 1.7%;
+    top: 40% !important;
+    width: 50px;
+    border-radius: 10px;
+    height: 48px;
+    background:  white;
+    line-height: 0;
+    padding: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: width 0.5s;
+}
+.content-input button{
+    cursor: pointer;
+    border: none;
+    background:transparent;
+    width: auto;
+    height: auto;
+    padding: 5%;
+    
+}
+
+
+.show-content {
+    display: flex !important;
+    width: 200px;
+    z-index: 1000001;   
+   
+}
+
+.hidden{
+    visibility: hidden;
+    
+}
+.content-input input[type="text"] {
+    width: 60%;
+    margin: 0;
+    outline: 0;
+    height: 80%;
+    border: none;
+    font-size: 12px;
+    padding: 0;
+}
+
 .social-nav a {
     display: inline-block;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    
     width: 64px;
     height: 48px;
     font-size: 1.2rem;
@@ -196,7 +250,7 @@ nav:hover .floating-action:hover {
     cursor: pointer;
     text-align: center;
     line-height: 48px;
-    position: relative;
+    right: 0;
     -moz-transition: 0.5s;
     -o-transition: 0.5s;
     -webkit-transition: 0.5s;
@@ -210,7 +264,7 @@ nav:hover .floating-action:hover {
     -webkit-transition: 0.5s;
     transition: 0.5s;
     right: 1.7%;
-    top: 45% !important;
+    top: 40% !important;
 }
 
 .model-0 li {
@@ -220,8 +274,23 @@ nav:hover .floating-action:hover {
 
 .model-0 a:hover {
     background: #044444;
+    right: 25%;
+    width: 125%;
+    position: relative;
 }
 
-.transparency{
+.transparency {
     filter: invert(100%);
+}
+
+.modal {
+    z-index: 1000000001;
+}
+
+.modal-header {
+    width: 100%;
+}
+
+.modal-dialog {
+    max-width: 600px;
 }

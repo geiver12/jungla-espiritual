@@ -125,7 +125,7 @@
     position: absolute;
     width: 500px;
     top: 50px;
-    right: 770px;
+    right: 670px;
 }
 
 .stop-4-cloud:hover {
@@ -160,7 +160,7 @@
 #stop-4-dialog-1-container {
     width: 430px;
     top: 160px;
-    right: 790px;
+    right: 690px;
 }
 
 #stop-4-dialog-1-container:hover {
@@ -179,7 +179,7 @@
 #stop-4-dialog-2-container {
     width: 350px;
     top: 200px;
-    right: 790px;
+    right: 690px;
 }
 
 #stop-4-dialog-2-container:hover {
@@ -197,13 +197,14 @@
 
 #stop-4-dialog-3-container {
     width: 300px;
-    top: 90px;
-    right: 970px;
+    top: 0px;
+    right: 770px;
 }
 
 #stop-4-dialog-3-container:hover {
     width: 500px;
-    right: 770px;
+    top: 0px;
+    right: 570px;
 }
 
 #stop-4-dialog-3 .dialog-text-container {
@@ -226,7 +227,8 @@
 
 #image-dialog-3 {
     position: absolute;
-    right: 0;
+    right: -200px;
+    top: -100px;
     z-index: 1001;
     height: 200px;
 }
@@ -246,12 +248,13 @@
 
 #stop-4-dialog-5-container {
     width: 500px;
-    top: 50px;
-    right: 750px;
+    top: 100px;
+    right: 550px;
 }
 
 #stop-4-dialog-5-container:hover {
     width: 670px;
+    right: 450px;
 }
 
 #stop-4-dialog-5 .dialog-text-container {
@@ -264,7 +267,7 @@
 #stop-4-dialog-6-container {
     width: 350px;
     top: 300px;
-    right: 850px;
+    right: 650px;
 }
 
 #stop-4-dialog-6-container:hover {
@@ -281,11 +284,12 @@
 #stop-4-dialog-7-container {
     width: 400px;
     top: 10px;
-    right: 800px;
+    right: 600px;
 }
 
 #stop-4-dialog-7-container:hover {
     width: 500px;
+    right: 500px;
 }
 
 #stop-4-dialog-7 .dialog-text-container {
@@ -298,11 +302,12 @@
 #stop-4-dialog-8-container {
     width: 500px;
     top: 160px;
-    right: 750px;
+    right: 620px;
 }
 
 #stop-4-dialog-8-container:hover {
-    width: 660px;
+    width: 620px;
+    
 }
 
 #stop-4-dialog-8 .dialog-text-container {

@@ -939,3 +939,18 @@ function validateEmail(email) {
     var caract = new RegExp(/^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/);
     return !(caract.test(email) == false)
 }
+
+
+$('#callSearch').click(function (event)
+{
+    $('#callSearch').addClass("hidden")
+    $('.content-input').addClass("show-content");
+});
+
+
+
+$('#closeInput').click(function (event)
+{
+    $('#callSearch').removeClass("hidden")
+    $('.content-input').removeClass("show-content");
+});

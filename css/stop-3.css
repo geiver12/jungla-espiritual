@@ -177,7 +177,7 @@
 #stop-3-dialog-1-container {
     width: 300px;
     top: 290px;
-    left: 650px;
+    left: 550px;
 }
 
 #stop-3-dialog-1-container:hover {
@@ -199,7 +199,7 @@
 #stop-3-dialog-2-container {
     width: 400px;
     top: 230px;
-    left: 650px;
+    left: 550px;
 }
 
 #stop-3-dialog-2-container:hover {
@@ -216,7 +216,7 @@
 #stop-3-dialog-3-container {
     width: 370px;
     top: 250px;
-    left: 650px;
+    left: 550px;
 }
 
 #stop-3-dialog-3-container:hover {
@@ -233,7 +233,7 @@
 #stop-3-dialog-4-container {
     width: 400px;
     top: 100px;
-    left: 650px;
+    left: 550px;
 }
 
 #stop-3-dialog-4-container:hover {
@@ -250,7 +250,7 @@
 #stop-3-dialog-5-container {
     width: 400px;
     top: 290px;
-    left: 650px;
+    left: 550px;
 }
 
 #stop-3-dialog-5-container:hover {
@@ -267,7 +267,7 @@
 #stop-3-dialog-6-container {
     width: 370px;
     top: 290px;
-    left: 650px;
+    left: 550px;
 }
 
 #stop-3-dialog-6-container:hover {
@@ -284,7 +284,7 @@
 #stop-3-dialog-7-container {
     width: 300px;
     top: 300px;
-    left: 650px;
+    left: 550px;
 }
 
 #stop-3-dialog-7-container:hover {
@@ -302,7 +302,7 @@
     position: absolute;
     width: 30vw;
     top: 9vh;
-    left: 33vw;
+    left: 25vw;
 }
 
 #stop-3-arrow-red {

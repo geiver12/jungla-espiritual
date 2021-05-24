@@ -13,9 +13,6 @@
     <!-- Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-        crossorigin="anonymous"></script>
     <!-- Roboto font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
@@ -53,34 +50,54 @@
             <img id="floating-menu" class="floating-action" src="images/go-to-up.svg" alt="open menu">
         </nav>
 
+        <div class="content-input">
+            <button id="closeInput">X</button>
+            <input type="text" />
+            <button><img src="images/menu/transparency.svg"  width="16px" height="16px" alt="facebook" ></button>
+        </div>
+
         <ul class="social-nav model-0 d-none d-sm-block">
             <li>
-                <a href="https://www.facebook.com/" target="_blank" >
-                    <img src="images/menu/transparency.svg"  width="32px" height="32px" alt="facebook" class="transparency">
+                <a href="#" class="search" id="callSearch" >
+                    <img src="images/menu/transparency.svg"  width="32px" height="32px" alt="facebook" class="transparency" id="search">
                 </a>
             </li>
             <li>
-                <a href="https://www.instagram.com/" target="_blank" class="instagram">
+                <a href="https://www.youtube.com/watch?v=pdM0PavO1SQ&t=1s " target="_blank" class="instagram">
                     <img src="images/menu/console.svg"  width="32px" height="32px" alt="facebook">
                 </a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/" target="_blank" class="linkedin">
+                <a href="https://chrome.google.com/webstore/detail/colorblind-dalton-for-goo/afcafnelafcgjinkaeohkalmfececool" target="_blank">
                     <img src="images/menu/circle.svg"  width="32px" height="32px" alt="facebook">
                 </a>
             </li>
             <li>
-                <a href="https://twitter.com" target="_blank" class="twitter">
+                <a href="https://citypark.felixyalegra.com/" target="_blank" class="twitter">
                     <img src="images/menu/credit-card.svg"  width="32px" height="32px" alt="facebook">
                 </a>
             </li>
             <li>
-                <a href="https://twitter.com" target="_blank" class="twitter">
+                <a href="#"   data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <img src="images/menu/dimensions.svg"  width="32px" height="32px" alt="facebook">
                 </a>
             </li>
         </ul>
 
+        <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="myLargeModalLabel">Jungla Espiritual</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img class="card-img-top" src="images/modal.png" alt="logo-header">
+                </div>
+               
+              </div>
+            </div>
+          </div>
 
         <section class="container-wrapper container">
             <div class="row">
@@ -131,7 +148,7 @@
                     <section id="instructions-section">
                         <div id="instructions-container">
                             <div id="miraflores-title" class="instructions-title">
-                                <h2>¿Donde queda Miraflores?</h2>
+                                <h2>¿Dónde queda Miraflores?</h2>
                             </div>
                             <div class="d-flex justify-content-evenly bd-highlight mb-3">
                                 <!-- google maps -->
@@ -193,7 +210,7 @@
                                 <div class="p-1 bd-highlight instruction">
                                     <p class="instructions-3-text">
                                         Si quieres regresar en la historia puedes hacerlo haciendo click en el siguiente
-                                        Botón
+                                        botón
                                     </p>
 
                                     <div
@@ -237,7 +254,7 @@
 
                         <!-- first page dialog -->
                         <div id="park-dialog" class="rounded-dialog">
-                            "Esta historia comienza en el año de 1998, cuando un grupo de jóvenes que vivían en la
+                            "Esta historia comienza en el año de 11440, cuando un grupo de jóvenes que vivían en la
                             ciudad de Bogotá
                             estaban a punto de presenciar una de las vivencias más horrorosas, terroríficas y crudas que
                             a un ser
@@ -407,29 +424,29 @@
                         <div class="time-line-container">
                             <div class="d-flex justify-content-center">
                                 <img id="stop-2-time-line-1" src="images/stop-2/time-line/1.svg" alt="time-line"
-                                    class="time-line">
+                                    class="time-line time-line-exc">
                                 <img id="stop-2-time-line-2" src="images/stop-2/time-line/2.svg" alt="time-line"
-                                    class="time-line">
+                                class="time-line time-line-exc">
                                 <img id="stop-2-time-line-3" src="images/stop-2/time-line/3.svg" alt="time-line"
-                                    class="time-line">
+                                class="time-line time-line-exc">
                                 <img id="stop-2-time-line-4" src="images/stop-2/time-line/4.svg" alt="time-line"
-                                    class="time-line">
+                                class="time-line time-line-exc">
                                 <img id="stop-2-time-line-5" src="images/stop-2/time-line/5.svg" alt="time-line"
-                                    class="time-line">
+                                class="time-line time-line-exc">
                                 <img id="stop-2-time-line-6" src="images/stop-2/time-line/6.svg" alt="time-line"
-                                    class="time-line">
+                                class="time-line time-line-exc">
                                 <img id="stop-2-time-line-7" src="images/stop-2/time-line/7.svg" alt="time-line"
-                                    class="time-line">
+                                class="time-line time-line-exc">
                                 <img id="stop-2-time-line-8" src="images/stop-2/time-line/8.svg" alt="time-line"
-                                    class="time-line">
+                                class="time-line time-line-exc">
                                 <img id="stop-2-time-line-9" src="images/stop-2/time-line/9.svg" alt="time-line"
-                                    class="time-line">
+                                class="time-line time-line-exc">
                                 <img id="stop-2-time-line-10" src="images/stop-2/time-line/10.svg" alt="time-line"
-                                    class="time-line">
+                                class="time-line time-line-exc">
                                 <img id="stop-2-time-line-11" src="images/stop-2/time-line/11.svg" alt="time-line"
-                                    class="time-line">
+                                class="time-line time-line-exc">
                                 <img id="stop-2-time-line-12" src="images/stop-2/time-line/12.svg" alt="time-line"
-                                    class="time-line">
+                                class="time-line time-line-exc">
                             </div>
                         </div>
 
@@ -586,7 +603,7 @@
                                     <div id="stop-3-dialog-1" class="dialog">
                                         <div class="dialog-text-container">
                                             <div id="stop-3-dialog-1-text" class="stop-3-text">
-                                                El 3 de Agosto de 1998 ocurrió uno de los capítulos más sangrientos de
+                                                El 3 de Agosto de 11440 ocurrió uno de los capítulos más sangrientos de
                                                 la historia
                                                 de Colombia, la toma de Miraflores
                                             </div>
@@ -717,29 +734,29 @@
                         <div class="time-line-container">
                             <div class="d-flex justify-content-center">
                                 <img id="stop-3-time-line-1" src="images/stop-3/time-line/1.svg" alt="time-line"
-                                    class="time-line">
+                                class="time-line time-line-exc">
                                 <img id="stop-3-time-line-2" src="images/stop-3/time-line/2.svg" alt="time-line"
-                                    class="time-line">
+                                class="time-line time-line-exc">
                                 <img id="stop-3-time-line-3" src="images/stop-3/time-line/3.svg" alt="time-line"
-                                    class="time-line">
+                                class="time-line time-line-exc">
                                 <img id="stop-3-time-line-4" src="images/stop-3/time-line/4.svg" alt="time-line"
-                                    class="time-line">
+                                class="time-line time-line-exc">
                                 <img id="stop-3-time-line-5" src="images/stop-3/time-line/5.svg" alt="time-line"
-                                    class="time-line">
+                                class="time-line time-line-exc">
                                 <img id="stop-3-time-line-6" src="images/stop-3/time-line/6.svg" alt="time-line"
-                                    class="time-line">
+                                class="time-line time-line-exc">
                                 <img id="stop-3-time-line-7" src="images/stop-3/time-line/7.svg" alt="time-line"
-                                    class="time-line">
+                                class="time-line time-line-exc">
                                 <img id="stop-3-time-line-8" src="images/stop-3/time-line/8.svg" alt="time-line"
-                                    class="time-line">
+                                class="time-line time-line-exc">
                                 <img id="stop-3-time-line-9" src="images/stop-3/time-line/9.svg" alt="time-line"
-                                    class="time-line">
+                                class="time-line time-line-exc">
                                 <img id="stop-3-time-line-10" src="images/stop-3/time-line/10.svg" alt="time-line"
-                                    class="time-line">
+                                class="time-line time-line-exc">
                                 <img id="stop-3-time-line-11" src="images/stop-3/time-line/11.svg" alt="time-line"
-                                    class="time-line">
+                                class="time-line time-line-exc">
                                 <img id="stop-3-time-line-12" src="images/stop-3/time-line/12.svg" alt="time-line"
-                                    class="time-line">
+                                class="time-line time-line-exc">
                             </div>
                         </div>
 
@@ -1108,7 +1125,7 @@
 
                         <div id="stop-7-text">
                             Si quieres puedes realizar una donación directa y recuerda <br> compartir esta historia para
-                            que nuca se
+                            que nunca se
                             repita
                         </div>
 
@@ -1152,12 +1169,12 @@
                         </div>
                     </section>
                     <footer id="footer">
-                        <div class="d-flex flex-row bd-highlight mb-4 justify-content-around">
+                        <div class="d-flex flex-row bd-highlight justify-content-around">
 
                             <!-- icon footer -->
                             <img src="images/footer/footer-logo.svg" class="p-2 bd-highlight" alt="logo footer">
                             <div class="p-2 bd-highlight footer-section">
-                                <span class="footer-title">Inscribete</span> <br>
+                                <span class="footer-title">Inscríbete</span> <br>
 
                                 <!-- form -->
                                 <form>
@@ -1213,19 +1230,13 @@
         </section>
     </main>
 
-    <!-- Js files -->
-    <!-- jquery -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <!-- popper.js -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
-        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
-        crossorigin="anonymous"></script>
-    <!-- bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
-        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
-        crossorigin="anonymous"></script>
-    <!-- page logic -->
+    
     <script src="js/logic.js"></script>
 </body>
 
