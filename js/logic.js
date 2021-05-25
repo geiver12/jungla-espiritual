@@ -519,14 +519,14 @@ $('#stop-4-dialog-3-container')
     });
 
 $("#fire-man").click(() => stop4nextAction());
-$("#game-stop-4").click(() => stop4nextGame());
+
 
 var positionStop4 = 0;
 
 function stop4nextAction() {
-    if (positionStop4 == 0) {
-        stop4next(1)
-    }
+
+    stop4next(1)
+
 }
 
 function stop4nextGame() {
@@ -673,21 +673,16 @@ function stop4next(add) {
 // Stop 5 **************************************************************************
 
 $("#stop-5-action").click(() => stop5nextAction());
-$("#cars").click(() => stop5nextGame());
+
 
 var positionStop5 = 0;
 
 function stop5nextAction() {
-    if (positionStop5 == 0) {
+    
         stop5next(1)
-    }
+    
 }
 
-function stop5nextGame() {
-    if (positionStop5 != 0) {
-        stop5next(1)
-    }
-}
 
 function stop5next(add) {
     if (positionStop5 + add < 0) {
@@ -796,20 +791,21 @@ $('#stop-6-image-1')
 
 
 $("#card").click(() => stop6nextAction());
-$("#stop-6-game").click(() => stop6nextGame());
+$("#card-man").click(() => stop6nextAction());
+//$("#stop-6-game").click(() => stop6nextGame());
 
 var positionStop6 = 0;
 
 function stop6nextAction() {
-    if (positionStop6 == 0) {
+    
         stop6next(1)
-    }
+    
 }
 
 function stop6nextGame() {
-    if (positionStop6 != 0) {
+    
         stop6next(1)
-    }
+    
 }
 
 function stop6next(add) {
@@ -847,17 +843,18 @@ function stop6next(add) {
                 new Audio('./sounds/sound-stop-6-up.mp3').play();
             }
 
-            $("#card-with-man").addClass("show");
+            //$("#card-with-man").addClass("show");
             $("#stop-6-image-1").addClass("show");
             $("#stop-6-dialog-1").addClass("show");
 
-            $("#card-man").removeClass("show");
+            //$("#card-man").removeClass("show");
             $("#card").removeClass("show");
             $("#take-card").removeClass("show");
 
-            $("#card-man").hide();
+            //$("#card-man").hide();
             $("#card").hide();
             $("#take-card").hide();
+            $("#arrow-stop-6").hide();
 
             $("#stop-6-image-1").addClass("show");
             $("#stop-6-dialog-1").addClass("show");
@@ -941,16 +938,14 @@ function validateEmail(email) {
 }
 
 
-$('#callSearch').click(function (event)
-{
+$('#callSearch').click(function (event) {
     $('#callSearch').addClass("hidden")
     $('.content-input').addClass("show-content");
 });
 
 
 
-$('#closeInput').click(function (event)
-{
+$('#closeInput').click(function (event) {
     $('#callSearch').removeClass("hidden")
     $('.content-input').removeClass("show-content");
 });

@@ -54,7 +54,6 @@
     top: 5vh;
     left: 5vw;
     width: 40%;
-    cursor: pointer;
 }
 
 #fire {
@@ -123,14 +122,15 @@
 
 .stop-4-cloud {
     position: absolute;
-    width: 500px;
+    width: 350px;
     top: 50px;
     right: 670px;
 }
 
 .stop-4-cloud:hover {
-    width: 700px;
-    right: 570px;
+    width: 450px;
+    top:0px;
+    right: 470px;
     z-index: 10002;
 }
 
@@ -144,6 +144,7 @@
 
 #stop-4-dialog-0-container:hover {
     width: 130px;
+    right: 300px;
 }
 
 #stop-4-dialog-0 .dialog-text-container {
@@ -165,7 +166,8 @@
 
 #stop-4-dialog-1-container:hover {
     width: 580px;
-    right: 590px;
+    top:50px;
+    right: 490px;
     z-index: 10002;
 }
 
@@ -184,7 +186,7 @@
 
 #stop-4-dialog-2-container:hover {
     width: 480px;
-    right: 690px;
+    right: 590px;
     z-index: 10002;
 }
 
@@ -306,7 +308,9 @@
 }
 
 #stop-4-dialog-8-container:hover {
-    width: 620px;
+    width: 700px;
+    top: 50px;
+    right: 350px;
     
 }
 

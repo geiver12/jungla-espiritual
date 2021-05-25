@@ -162,13 +162,14 @@
 
 .stop-3-cloud {
     position: absolute;
-    width: 40vw;
+    width: 30vw;
     top: 5%;
     left: 28vw;
 }
 
 .stop-3-cloud:hover {
-    width: 55vw;
+    width: 40vw;
+    left: 20vw;
     top: 10%;
 }
 
@@ -204,6 +205,7 @@
 
 #stop-3-dialog-2-container:hover {
     width: 550px;
+    left: 450px;
 }
 
 #stop-3-dialog-2 .dialog-text-container {
@@ -221,6 +223,7 @@
 
 #stop-3-dialog-3-container:hover {
     width: 490px;
+    left: 450px;
 }
 
 #stop-3-dialog-3 .dialog-text-container {
@@ -238,6 +241,7 @@
 
 #stop-3-dialog-4-container:hover {
     width: 550px;
+    left: 450px;
 }
 
 #stop-3-dialog-4 .dialog-text-container {
@@ -255,6 +259,7 @@
 
 #stop-3-dialog-5-container:hover {
     width: 500px;
+    left: 450px;
 }
 
 #stop-3-dialog-5 .dialog-text-container {
@@ -272,6 +277,7 @@
 
 #stop-3-dialog-6-container:hover {
     width: 480px;
+    left: 550px;
 }
 
 #stop-3-dialog-6 .dialog-text-container {

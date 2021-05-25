@@ -163,6 +163,7 @@ nav:hover .floating-action:hover {
     position: absolute;
     bottom: 3vh;
     width: 100%;
+    z-index: 10001;
 }
 
 .container-wrapper {

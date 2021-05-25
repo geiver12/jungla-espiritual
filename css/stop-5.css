@@ -26,7 +26,7 @@
     right: 5%;
     width: 40%;
     z-index: 900;
-    cursor: pointer;
+    
 }
 
 #stop-5-supercontainer {
@@ -125,10 +125,6 @@
     z-index: 1004;
 }
 
-.stop-5-text:hover {
-    font-size: 1.6rem;
-    cursor: pointer;
-}
 
 #stop-5-image-1,
 #stop-5-image-2,

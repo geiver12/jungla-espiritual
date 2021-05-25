@@ -1,3 +1,17 @@
+@keyframes up-down-red-arrow-stop-7 {
+    0% {
+        bottom: 430px;
+    }
+    50% {
+        bottom: 460px;
+    }
+    100% {
+        bottom: 430px;
+    }
+}
+
+
+
 #stop-7-static-content {
     object-fit: fill;
     width: 100%;
@@ -85,9 +99,8 @@
 }
 
 #button-tell-history {
-    position: absolute;
-    bottom: 20%;
-    left: 35%;
+    position: relative;
+    bottom: -43vh;
     z-index: 100001;
     color: white;
     height: 40px;
@@ -98,4 +111,10 @@
     font-family: "roboto";
     font-weight: 500;
     font-size: 1rem;
+}
+
+.content-button{
+    display: flex;
+    justify-content: center ;
+    
 }
